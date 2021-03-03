@@ -41,7 +41,7 @@ class CIPHPUnitTestDbTestCase extends CIPHPUnitTestCase
 		}
 	}
 
-	protected function setUp()
+	protected function setUp(): void
 	{
 		$this->loadDependencies();
 	}
