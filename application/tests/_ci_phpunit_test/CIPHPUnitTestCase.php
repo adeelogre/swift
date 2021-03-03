@@ -136,7 +136,7 @@ class CIPHPUnitTestCase extends PHPUnit_Framework_TestCase
 		return $this->CI->$classname;
 	}
 
-	protected function tearDown()
+	protected function tearDown(): void
 	{
 		if (class_exists('MonkeyPatch', false))
 		{
